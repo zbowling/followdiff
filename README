@@ -1,0 +1,16 @@
+Followdiff is a Ruby Twitter script I hacked together. It lets me know who started following me and who unfollowed over time. It's hacker tool. 
+
+It has some dependencies like datamapper and the twitter gem. It creates a SQLLite db to store username to id mappings. It stores all your following and follower graphs in a text file under following or followers. With the "-i" argument, you can a social graph file in and it will compare the differences between your social graph now and back then. 
+
+I have this script running in a cron job locally to save my social graph over time each day. 
+
+Don't ask me any details. I don't care much. This just simple I use every few weeks to know who unfollowed me and to identify when I said something stupid that caused me to loose a bunch of people. 
+
+
+You can optionally create a settings.rb file in the directory that contains your OAuth keys like this:
+
+   
+   $consumer_token = 'xxxx'
+   $consumer_secret = 'xxxxxxxx'
+   $ac_token = 'xxxxx-xxxxxxxxxxx'
+   $ac_secret = 'xxxxxxx'
