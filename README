@@ -4,7 +4,7 @@ It has some dependencies like datamapper and the twitter gem. It creates a SQLLi
 
 I have this script running in a cron job locally to save my social graph over time each day. 
 
-Don't ask me any details. I don't care much. This just simple I use every few weeks to know who unfollowed me and to identify when I said something stupid that caused me to loose a bunch of people. 
+Don't ask me any details. I don't care much. This is just a simple script I use every few weeks to know who unfollowed me and to identify when I said something stupid that caused me to loose a bunch of people. Use it if you want for your own stuff.
 
 
 You can optionally create a settings.rb file in the directory that contains your OAuth keys like this:
